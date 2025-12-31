@@ -1,0 +1,12 @@
+# 忽略 Python 编译文件
+__pycache__/
+*.pyc
+
+# 忽略大数据文件 (绝对不能上传)
+*.parquet
+*.bin
+
+# 忽略本地可能的配置或临时文件
+.idea/
+.vscode/
+venv/
